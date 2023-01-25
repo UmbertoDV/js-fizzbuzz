@@ -7,16 +7,16 @@ for (let i = 1; i <= 100; i++){
     ItemEl.classList.add("box")
     listEl.append(ItemEl)
 
-    if(i % 3 == 0){
-        ItemEl.classList.add("fizz")
-        ItemEl.innerHTML = ("FIZZ")
+    if((i % 3 == 0) && (i % 5 == 0)){
+        ItemEl.classList.add("fizz-buzz")
+        ItemEl.innerHTML = ("FIZZ BUZZ")
     }
     else if(i % 5 == 0){
         ItemEl.classList.add("buzz")
         ItemEl.innerHTML = ("BUZZ")
     }
-    else if((i % 3 == 0) && (i % 5 == 0)){
-        ItemEl.classList.add("fizz-buzz")
-        ItemEl.innerHTML = ("FIZZ BUZZ")
+    else if(i % 3 == 0){
+        ItemEl.classList.add("fizz")
+        ItemEl.innerHTML = ("FIZZ")
     }
 }
