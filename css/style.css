@@ -1,0 +1,27 @@
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #fa9600;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.fizz{
+    background-color: #001aff;
+}
+
+.buzz{
+    background-color: #ff0000;
+}
+
+.fizz-buzz{
+    background-color: #189200;
+}
